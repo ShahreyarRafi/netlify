@@ -6,7 +6,7 @@ import OurStory from "@/components/AboutUs/OurStories/OurStory";
 const AboutUsPage = () => {
   return (
     <div className="bg-orange-50">
-      <div className={lato.className}>
+      <div >
         <AboutBanner />
         <OurStory />
         <FoundersQuotes />
