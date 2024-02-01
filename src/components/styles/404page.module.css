@@ -14,12 +14,12 @@ html.page {
     z-index: 1000;
 }
 
-h1 {
+.h1-root {
     margin-top: 2rem;
     text-align: center;
 }
 
-h1+p {
+.h1-p + p {
     text-align: center;
 }
 
