@@ -14,13 +14,13 @@ const Navbar = () => {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/aboutUs">About</Link>
+        <Link href="/aboutus">About</Link>
       </li>
       <li>
         <Link href="/dashboard">Dashboard</Link>
       </li>
       <li>
-        <Link href="/addBook">Add Book</Link>
+        <Link href="">Category</Link>
       </li>
     </>
   );
@@ -98,11 +98,9 @@ const Navbar = () => {
           <button>
             <LuMoonStar className="text-xl  hover:text-orange-500"></LuMoonStar>
           </button>
-          <Link href="login">
           <button>
             <FiLogIn className="text-xl  hover:text-orange-500"></FiLogIn>
           </button>
-          </Link>
         </div>
       </nav>
     </div>
