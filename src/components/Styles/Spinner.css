@@ -1,20 +1,19 @@
-.spinner-root {
-    --hue: 223;
-    --bg: hsl(var(--hue),10%,90%);
-    --fg: hsl(var(--hue),10%,10%);
-    --primary: hsl(var(--hue),90%,55%);
-    --primary-l: hsl(var(--hue),90%,65%);
-    --primary-d: hsl(var(--hue),90%,45%);
-    --white: hsl(var(--hue),10%,100%);
-    --white-d: hsl(var(--hue),10%,45%);
-}
 
-body.spinner-body {
-    background-color: var(--bg);
-    color: var(--fg);
-    font: 1em/1.5 sans-serif;
+:root {
+	--hue: 223;
+	--bg: hsl(var(--hue),10%,90%);
+	--fg: hsl(var(--hue),10%,10%);
+	--primary: hsl(var(--hue),90%,55%);
+	--primary-l: hsl(var(--hue),90%,65%);
+	--primary-d: hsl(var(--hue),90%,45%);
+	--white: hsl(var(--hue),10%,100%);
+	--white-d: hsl(var(--hue),10%,45%);
 }
-
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	font: 1em/1.5 sans-serif;
+}
 
 .book,
 .book__pg-shadow,
@@ -109,7 +108,7 @@ body.spinner-body {
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
-	.spinner-root {
+	:root {
 		--bg: hsl(var(--hue),10%,30%);
 		--fg: hsl(var(--hue),10%,90%);
 	}

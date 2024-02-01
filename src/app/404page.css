@@ -1,10 +1,9 @@
-body.page,
-html.page {
-  height: 100%;
+body,
+html {
+    height: 100%;
 }
 
-
-.body-root {
+body {
     margin: 0;
     padding: 2rem;
     background-color: #446072;
@@ -14,12 +13,12 @@ html.page {
     z-index: 1000;
 }
 
-.h1-root {
+h1 {
     margin-top: 2rem;
     text-align: center;
 }
 
-.h1-p + p {
+h1+p {
     text-align: center;
 }
 
