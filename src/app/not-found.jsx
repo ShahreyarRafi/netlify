@@ -1,4 +1,4 @@
-import '../components/styles/404page.css'
+import '../components/styles/404page.module.css'
 
 const notFoundPage = () => {
     return (

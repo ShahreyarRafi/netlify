@@ -1,6 +1,6 @@
 "use client"
 
-import '@/components/styles/spinner.css'
+import '@/components/styles/spinner.module.css'
 import 'swiper/css/bundle';
 import React, { useEffect, useState } from 'react';
 import ExchangeCard from "../../Shared/ExchangeCard";

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import '../styles/card.css'
+import '../styles/card.module.css'
 import { FaCartPlus, FaExchangeAlt } from "react-icons/fa";
 
 
