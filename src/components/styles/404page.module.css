@@ -1,7 +1,8 @@
-body,
-html {
-    height: 100%;
+body.page,
+html.page {
+  height: 100%;
 }
+
 
 body {
     margin: 0;
